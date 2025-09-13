@@ -5,23 +5,26 @@ YOLO SAM Stability AI FastAPI Streamlit OpenCV
 An advanced AI-powered fashion image editing system built with modular architecture for real-time clothing detection, precise segmentation, and intelligent inpainting. The project leverages YOLO for high-performance clothing detection, SAM (Segment Anything Model) for pixel-perfect segmentation, and Stability AI for professional-quality clothing generation with a modern web interface.
 
 ## What Makes It Special:
-🎯 **Real-Time Detection**: Ultra-fast YOLO object detection with custom-trained fashion model for accurate clothing identification.
-🎨 **Precise Segmentation**: Meta's SAM model provides pixel-perfect clothing masks for seamless editing.
-🖼️ **AI-Powered Generation**: Stability AI inpainting creates realistic new clothing based on text prompts.
-🌐 **Modern Web Interface**: Professional Streamlit frontend with real-time processing and debug visualization.
-⚡ **High Performance**: Optimized pipeline with CUDA acceleration and efficient image processing.
-🎛️ **Configurable Settings**: Adjustable detection confidence, prompt customization, and negative prompts.
-🔧 **Modular Architecture**: Clean separation between detection, segmentation, generation, and web components.
-🎨 **Professional Results**: High-quality clothing replacement with natural lighting and texture preservation.
-📊 **Live Monitoring**: Real-time processing status, debug visualization, and result comparison.
-🛡️ **Robust Design**: Comprehensive error handling and file management for production stability.
-👗 **Fashion-Focused**: Specialized for clothing items with intelligent detection and generation algorithms.
+- 🎯 **Real-Time Detection**: Ultra-fast YOLO object detection with custom-trained fashion model for accurate clothing identification.
+- 🎨 **Precise Segmentation**: Meta's SAM model provides pixel-perfect clothing masks for seamless editing.
+- 🖼️ **AI-Powered Generation**: Stability AI inpainting creates realistic new clothing based on text prompts.
+- 🌐 **Modern Web Interface**: Professional Streamlit frontend with real-time processing and debug visualization.
+- ⚡ **High Performance**: Optimized pipeline with CUDA acceleration and efficient image processing.
+- 🎛️ **Configurable Settings**: Adjustable detection confidence, prompt customization, and negative prompts.
+- 🔧 **Modular Architecture**: Clean separation between detection, segmentation, generation, and web components.
+- 🎨 **Professional Results**: High-quality clothing replacement with natural lighting and texture preservation.
+- 📊 **Live Monitoring**: Real-time processing status, debug visualization, and result comparison.
+- 🛡️ **Robust Design**: Comprehensive error handling and file management for production stability.
+- 👗 **Fashion-Focused**: Specialized for clothing items with intelligent detection and generation algorithms.
 
 ## 🎬 Demo Video
 
 Watch our comprehensive demo showcasing the complete Change My Clothes workflow:
 
-[![Change My Clothes Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+
+https://github.com/user-attachments/assets/e60dd999-42fb-43d4-9a19-f7b8455e7b4b
+
 
 **What you'll see in the demo:**
 - 🖼️ **Image Upload**: Seamless fashion photo upload through the web interface
@@ -152,10 +155,10 @@ git clone https://github.com/yourusername/ChangeMyclothes.git
 cd ChangeMyclothes
 ```
 
-### Step 2: Download YOLO Model
-Download the custom-trained YOLO fashion detection model:
+### Step 2: Check  YOLO Model
+check the custom-trained YOLO fashion detection model in models folder:
 - **Model**: `FashionYololast.pt`
-- **Size**: ~50MB
+- **Size**: ~19MB
 - **Purpose**: Clothing detection and bounding box generation
 - **Place in**: `models/FashionYololast.pt`
 
@@ -249,5 +252,6 @@ streamlit run app.py
 - **Model Loading Errors**: Verify all model files are in the `models/` directory
 - **API Key Issues**: Double-check your Stability AI key in the `.env` file
 - **Permission Errors**: Ensure the application has write permissions for uploads and generated files
+
 
 
